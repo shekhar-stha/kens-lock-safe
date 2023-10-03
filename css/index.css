@@ -734,7 +734,7 @@ nav .navbar-nav .nav-link:hover {
   text-transform: capitalize;
   color: var(--hero-heading-color);
   padding: 0 2rem;
-  text-shadow: 0 0 8px var(--dark);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
   font-weight: var(--hero-font-weight);
   font-size: var(--hero-font-size);
   line-height: 60px;
@@ -1242,12 +1242,12 @@ nav .navbar-nav .nav-link:hover {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 12px;
   background-color: var(--white);
-  min-height: 320px;
 }
 
 .testimonials .testimonial-slider .column .quote {
   width: 4rem;
   filter: grayscale(100%);
+  margin: 0 auto;
 }
 
 .testimonials .testimonial-slider .column .data {
