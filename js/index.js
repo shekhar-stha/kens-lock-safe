@@ -597,11 +597,11 @@ AOS.init();
 
 
 $('.services-row').slick({
-  dots: true,
+  dots: false,
   infinite: true,
   loop: true,
   speed: 300,
-  slidesToShow: 2,
+  slidesToShow: 3,
   slidesToScroll: 1,
   prevArrow: '<i class="fa-solid fa-chevron-left left-arrow"></i>',
   nextArrow: '<i class="fa-solid fa-chevron-right right-arrow"></i>',
@@ -612,7 +612,7 @@ $('.services-row').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
